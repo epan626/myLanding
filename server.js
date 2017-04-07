@@ -16,10 +16,6 @@ app.use( express.static( path.join( root, 'client/static/images' )));
 app.use( express.static( path.join( root, 'bower_components' )));
 app.use( bp.json() );
 
-
-var routes_setter = require('./server/config/routes.js')
-routes_setter(app);
-
 app.listen( port, function() {
 	console.log( `server running on port ${ port }`);
 })
