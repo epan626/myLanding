@@ -8,7 +8,6 @@ $scope.displayFirst = true
 // ipad clock start
 			var today = new Date();
 	    var h = today.getHours();
-	      console.log(h);
 			if(h>12){
 				h = h-12
 			} else if(h == 0){
