@@ -1,0 +1,485 @@
+/**{
+	outline: 1px solid red;
+}*/
+
+.mainContainer{
+	background-color: #f2f2f2;
+}
+.aboutMe {
+	margin-top: 200px;;
+}
+
+.introGreet{
+	text-align: center;
+	font-size: 40px;
+	width: 100%;
+
+
+}
+
+
+
+.introName{
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 48px;
+}
+
+.personalStatement{
+	font-size: 25px;
+	margin-bottom: 64px;
+}
+
+#topContainer {
+	background-color: #E6E6E6;
+}
+
+#navList li a {
+	color: white;
+}
+
+.nameNav {
+	color: #6C8265;;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: -50px;
+	margin-top: 0px;
+
+}
+
+/*.nameNavDiv{
+	z-index: 1
+}*/
+
+.itemNav{
+	color: white;
+	margin-top: 40px;
+}
+
+.portCards {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 450px;
+	border: 1px solid black;
+}
+
+.oneCard {
+	margin-left: 342px;
+}
+
+.portContainer {
+	margin-top: 500px;
+}
+.frontEndIconsContainer{
+	display: inline-block;
+	text-align: center;
+	width: 16%
+}
+
+.backEndIconsContainer{
+	display: inline-block;
+	text-align: center;
+	width: 19%
+}
+
+.dbIconsContainer{
+	display: inline-block;
+	text-align: center;
+	width: 49%
+}
+
+.skillsTitle{
+	font-size: 48px;
+	text-align: center;
+	font-weight: 200;
+}
+
+.skillContainer{
+	background-color: white;
+	border-radius: 25px;
+	z-index: 5;
+}
+
+.skillContainer h3{
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 40px;
+}
+
+.skillsTitleIcon{
+	width: 35px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.frontEndIcons, .backEndIcons, .dbIcons {
+	width: 80px;
+ 	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.backEndIcons{
+
+}
+
+.stackDesc {
+	margin-bottom: 3px;
+}
+
+.skills1{
+	margin-top: 70px;
+	z-index: 5;
+}
+.projects{
+	margin-top: -450px;
+	margin-bottom: 50px;
+}
+.projects h3{
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.projectsDescrip{
+	margin-top: 20px;
+}
+
+.projectsDescrip h4{
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.projectsDescrip p{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.projectsTitle{
+	margin-top: 20px;
+	text-align: center;
+	font-size:  30px;
+	font-weight: 200;
+}
+
+/* ipad Start*/
+.innerScreen{
+	border: 2px solid #3B3C3F;
+	border-radius: 2px;
+	padding: 0px 150px 0px 150px;
+	background-color: white;
+	display: inline-block;
+	z-index: 5;
+}
+
+.innerScreen2{
+	border: 2px solid #3B3C3F;
+	border-radius: 2px;
+	padding: 0px 150px 249px 150px;
+	background-color: white;
+	display: inline-block;
+}
+
+.innerScreen2Text{
+	font-weight: 300;
+}
+
+.innerScreen1Text{
+	font-weight: 200;
+	margin-bottom: -15px;
+}
+#ipadNavbar2{
+	display: inline-block;
+	margin-bottom: 150px;
+}
+
+#ipadNavbar{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#deviceTimer2{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	width: 6.2%
+}
+
+#deviceTimer{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	width: 5%
+}
+.blackBezel{
+	border: 5px solid #3B3C3F;
+	border-radius: 35px;
+	padding: 30px 80px 30px 80px;
+	background-color: black;
+}
+
+.innerIpadBezelRight{
+	display: inline-block;
+	background-color: #000000;
+	margin-top: 265px;
+}
+
+.innerIpadBezelLeft{
+	display: inline-block;
+	background-color: black;
+	margin-top: 280px;
+}
+.content{
+	margin-top: -150px;
+}
+
+.ipadCamera{
+background-color: #284160;
+border: 1px solid #606670;
+border-radius: 10px;
+width: 10px;
+height: 10px;
+margin-left: 15px;
+}
+
+.ipadButton{
+	background-color: black;
+	border: 2px solid #505153;
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-animation: mymove 10s infinite;
+  animation: mymove 3.0s 3;
+	transition: 1.0s all ease;
+	margin-left: 0px;
+}
+
+.ipadButton:hover {
+	background-color: #3B3C3F;
+
+}
+
+.ipadInnerButton{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #DCDDD8;
+	border-radius: 3px;
+	position: absolute;
+	 top: 50%; left: 46%;
+	 transform: translate(-50%,-50%);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+	0% {border-color: #505153;}
+  20% {border-color: #77996D;}
+  40% {border-color: #3BDE26;}
+  60% {border-color: #3BDE26;}
+  80% {border-color: #77996D;}
+  100% {border-color: #505153;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0% {border-color: #505153;}
+    20% {border-color: #77996D;}
+		40% {border-color: #3BDE26;}
+		60% {border-color: #3BDE26;}
+		80% {border-color: #77996D;}
+		100% {border-color: #505153;}
+}
+
+
+.ipadApps, .ipadApps1{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 60px;
+	margin: 30px 10px 10px 0px;
+	background-color: #77996D;
+}
+
+.ipadApps2{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 60px;
+	margin: 100px 10px 10px 0px;
+	background-color: #77996D;
+}
+
+.ipadApps a{
+	width: 65px;
+	padding: 23px 6px 23px 6px;
+	color: #DCDDD8;
+	text-decoration: none;
+}
+
+.ipadApps1 a{
+	width: 65px;
+	padding: 23px 15px 23px 15px;
+	color: #DCDDD8;
+	text-decoration: none;
+}
+
+.ipadApps2 a{
+
+	width: 65px;
+	padding: 15px 22px 20px 22px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.ipadApps1 a:hover, .ipadApps a:hover, .ipadApps a:focus, .ipadApps1 a:focus, .ipadApps2 a:hover, .ipadApps2 a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+.githubApp{
+	width: 45px;
+	height: 50px;
+	background-color: #77996D;
+
+}
+
+.blogsApp:hover span {
+	display: none;
+}
+
+.ipadApps1:hover .blogsApp:after {
+	content: 'Soon!';
+}
+
+
+.tutorialsApp:hover span {
+	display: none;
+}
+
+.ipadApps:hover .tutorialsApp:after {
+	content: 'Soon!';
+}
+
+
+.resumesApp:hover span {
+	display: none;
+}
+
+.ipadApps:hover .resumesApp:after {
+	content: 'Soon!';
+}
+
+
+/* ipad End*/
+
+/* browser start */
+
+.browserOuter{
+padding: 20px 0px 0px 0px;
+border-radius: 3px;
+border-bottom: 2px solid #ccc;
+display: inline-block;
+position: relative;
+line-height: 0;
+text-align: center;
+width: 1000px;
+height: 360px;
+}
+
+.browserOuter img{
+	margin-left: -20px;
+	width: 500px;
+	height: 340px;
+}
+
+.browserOuter span{
+	height: 8px;
+    width: 8px;
+    border-radius: 8px;
+    border: 1px solid #dadada;
+    float: left;
+    margin: 3px 0 0 4px;
+}
+
+.redCircle{
+	background-color: #db3236;
+}
+
+.yellowCircle{
+	background-color: #f4c20d;
+}
+
+.greenCircle{
+	background-color: #3cba54;
+}
+
+
+
+
+.browserInner{
+	display: block;
+	height: 15px;
+	width: 500px;
+	background-color: #DDDDDD;
+	position: absolute;
+	/*top: 5px;*/
+	left: -5px;
+	text-align: center;
+}
+
+/* browser end */
+
+
+/* iphone */
+
+.iphoneOuter{
+	padding-top: 10px;
+	padding-right: -5px;
+	background: black;
+	text-align: center;
+	width: 252px;
+	height: 530px;
+	border: 3px solid #C0C1C6;
+	border-radius: 25px;
+}
+
+.iPhoneButton{
+	width: 35px;
+	height: 35px;
+	border: 2px solid #505153;
+	border-radius: 100%;
+	margin-top: 5px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.iphoneInnerTop{
+	margin-bottom: 10px;
+}
+
+.iphoneCamera{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #505153;
+	border-radius: 100%;
+	margin-top: 0px;
+	margin-left: auto;
+	background-color: #294260;
+  margin-right: auto;
+	display: inline-block;
+}
+
+.iphoneSpeaker{
+	display: inline-block;
+}

@@ -1,0 +1,235 @@
+<div class="mainContainer" ng-controller='homeController'>
+	<div id="topContainer"class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-1 nameNavDiv">
+				<h1 class="navbar-fixed-top nameNav">Eric Pan</h1>
+			</div>
+			<!-- <div class="col-lg-3 col-lg-offset-4">
+				<h5 class="text-center itemNav ">Projects | Resume</h5>
+			</div> -->
+		</div>
+	</div>
+<div class="container content">
+	<div class="row aboutMe">
+		<div class="col-lg-10 col-lg-offset-1">
+			<div class="blackBezel col-lg-12">
+				<div class="innerIpadBezelLeft col-lg-1">
+					<p class ="text-center "><div class="ipadCamera">
+
+					</div></p>
+				</div>
+
+					<!-- Screen 1 -->
+				<div ng-show="displayFirst" class="innerScreen col-lg-10">
+					<div ng-show="displayFirst"  class="col-lg-12" id="ipadNavbar">ePad <div class="col-lg-offset-5" id="deviceTimer">{{time}}</div></div>
+					<p class="introGreet" ng-show="displayFirst">Welcome, my name is  </p>
+					<p class="introName">Eric Pan</p>
+					<p ng-show="displayFirst" class ="text-center personalStatement">I am a software engineer influenced by my passion for education. I use technology as a medium to empower educators and learners through creating intuitive websites and applications. </p>
+					<div class="col-lg-12 text-center">
+						<h3 class="innerScreen1Text" >Checkout my</h3>
+						<div class="ipadApps1">
+								<a href="" class="blogsApp"><span>Blog</span></a>
+						</div>
+
+						<div class="ipadApps">
+								<a href="" class="tutorialsApp"><span>Tutorials</span></a>
+						</div>
+
+						<div class="ipadApps">
+								<a href="" class="resumesApp"><span>Resume</span></a>
+						</div>
+
+						<!-- <div class="ipadApps">
+								<a href="" class="resumeApp">Resume</a>
+						</div> -->
+
+						<div class="ipadApps">
+								<a target="_blank" href="https://www.linkedin.com/in/eric--pan" class="linkedinApp">Linkedin</a>
+						</div>
+						<div class="ipadApps">
+								<a target="_blank" href="https://github.com/epan626/"><img class="githubApp" src="github-5.png" data-hover="github-3.png" data-src="github-5.png"  alt="github"></a>
+						</div>
+						<div class="ipadApps">
+								<a href="mailto:epan626@gmail.com"><img class="githubApp" src="email11.png" data-hover="email12.png" data-src="email11.png"  alt="github"></a>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Screen 2 -->
+				<div ng-show="!displayFirst" class="innerScreen2 col-lg-10" >
+					<div class="col-lg-12" ng-show="!displayFirst" id="ipadNavbar2">ePad<div class="col-lg-offset-5" id="deviceTimer2">{{time}}</div></div>
+					<div class="col-lg-12 text-center">
+						<h3 class="innerScreen2Text" >Checkout my</h3>
+						<div class="ipadApps1">
+								<a href="" class="skillsApp">Skills</a>
+						</div>
+
+						<div class="ipadApps">
+								<a href="" class="projectsApp">Projects</a>
+						</div>
+						<!-- <div class="ipadApps">
+								<a href="" class="resumeApp">Resume</a>
+						</div> -->
+
+						<div class="ipadApps">
+								<a target="_blank" href="https://www.linkedin.com/in/eric--pan" class="linkedinApp">Linkedin</a>
+						</div>
+						<div class="ipadApps">
+								<a target="_blank" href="https://github.com/epan626/"><img class="githubApp" src="github-5.png" data-hover="github-3.png" data-src="github-5.png"  alt="github"></a>
+						</div>
+					</div>
+				</div><div class="innerIpadBezelRight col-lg-1">
+					<p class ="text-center "><div ng-click="goHome()" class="ipadButton"><div class="ipadInnerButton"></div></div></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="skills">
+		<div class="row skills1">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h1 class="skillsTitle">Skills</h1>
+				<div class="row">
+					<div class="skillContainer">
+						<h3><img class="skillsTitleIcon" src="front-end.png" alt="frontend">Front-End</h3>
+						<div class="frontEndIconsContainer">
+							<img  class = "frontEndIcons" src="html.png" alt="html">
+							<p>HTML5</p>
+						</div>
+						<div class="frontEndIconsContainer">
+							<img class = "frontEndIcons" src="css.png" alt="css">
+							<p>CSS3</p>
+						</div>
+						<div class="frontEndIconsContainer">
+							<img class = "frontEndIcons" src="js.png" alt="js">
+							<p>JAVASCRIPT</p>
+						</div>
+						<div class="frontEndIconsContainer">
+							<img class = "frontEndIcons" src="angular.png" alt="angular">
+							<p>ANGULAR</p>
+						</div>
+						<div class="frontEndIconsContainer">
+							<img class = "frontEndIcons" src="jq.png" alt="jq">
+							<p>JQUERY</p>
+						</div>
+						<div class="frontEndIconsContainer">
+							<img class = "frontEndIcons" src="swift.png" alt="swift">
+							<p>SWIFT</p>
+						</div>
+						<h3><img class="skillsTitleIcon" src="back-end.png" alt="backend">Back-End</h3>
+						<div class="backEndIconsContainer">
+							<img class = "backEndIcons" src="node.png" alt="node">
+							<p>NODE.JS</p>
+						</div>
+						<div class="backEndIconsContainer">
+							<img class = "backEndIcons" src="expressjs.png" alt="expressjs">
+							<p>EXPRESS.JS</p>
+						</div>
+						<div class="backEndIconsContainer">
+							<img class = "backEndIcons" src="python.png" alt="python">
+							<p>PYTHON</p>
+						</div>
+						<div class="backEndIconsContainer">
+							<img class = "backEndIcons" src="socket.png" alt="socket">
+							<p>SOCKET.IO</p>
+						</div>
+						<div class="backEndIconsContainer">
+							<img class = "backEndIcons" src="nginx.png" alt="nginx">
+							<p>NGINX</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-4 col-lg-offset-4">
+								<h3><img class="skillsTitleIcon" src="db.png" alt="db">Database</h3>
+								<div class="dbIconsContainer">
+									<img class = "dbIcons" src="sql.png" alt="sql">
+									<p>MYSQL</p>
+								</div>
+								<div class="dbIconsContainer">
+									<img class = "dbIcons" src="mongo.png" alt="mongo">
+									<p>MONGODB</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="projects">
+	<div id ="allPorts" class="row portContainer">
+		<div class="row">
+			<h3>Projects</h3>
+				<h4 class=" projectsTitle ">Coyote</h4>
+				<div class="col-lg-5 col-lg-offset-1 browserOuter">
+						<div class="browserInner">
+						<span class="redCircle"></span>
+						<span class="yellowCircle"></span>
+						<span class="greenCircle"></span>
+						</div>
+						<img src="coyote.png" alt="coyote">
+				</div>
+				<div class="projectsDescrip col-lg-5 col-lg-offset-1">
+					<h4> Map planning service enabling users to locate National Parks and highly reviewed Yelp restaurants</h4>
+					<p>Built with NodeJS, Express, Angular, MongoDB, and Mongoose.js</p>
+					<p>API: Google Maps, Yelp, and TrailAPI</p>
+					<p>Tools: AWS, Github</p>
+				</div>
+
+		</div>
+
+
+</div>
+<div class="row">
+		<h4 class="projectsTitle ">City Chat</h4>
+		<div class="projectsDescrip col-lg-5 col-lg-offset-1">
+			<h4> Map planning service enabling users to locate National Parks and highly reviewed Yelp restaurants</h4>
+			<p>Built with NodeJS, Express, Angular, MongoDB, and Mongoose.js</p>
+			<p>API: Google Maps, Yelp, and TrailAPI</p>
+			<p>Tools: AWS, Github</p>
+		</div>
+		<div class="col-lg-3 col-lg-offset-2 iPhoneOuterContainer">
+				<div class="">
+
+				</div>
+				<div class="iphoneOuter">
+					<div class="iphoneInnerTop">
+						<div class="iphoneCamera"></div>
+						<div class="iphoneSpeaker">--------</div>
+					</div>
+					<img src="giphy.gif" alt="citychat">
+					<div class="iPhoneButton"></div>
+				</div>
+
+
+		</div>
+
+
+</div>
+<div class="row">
+	<h4 class=" projectsTitle">Myphers</h4>
+	<div class="col-lg-5 col-lg-offset-1 browserOuter">
+			<div class="browserInner">
+				<span class="redCircle"></span>
+				<span class="yellowCircle"></span>
+				<span class="greenCircle"></span>
+			</div>
+			<img src="myphers.png" alt="myphers">
+	</div>
+	<div class="projectsDescrip col-lg-5 col-lg-offset-1">
+		<h4> E-commerce platform selling vintage clothing and toys</h4>
+		<p>Built with NodeJS, Express, Angular, MongoDB, and Mongoose.js</p>
+		<p>API: Stripe</p>
+		<p>Tools: AWS, Github</p>
+	</div>
+</div>
+
+
+
+	</section>
+
+
+
+
+
+</div>
