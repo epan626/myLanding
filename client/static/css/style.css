@@ -37,19 +37,43 @@
 #navList li a {
 	color: white;
 }
-
+@media (max-width:1310px) {
+	.nameNav{
+		font-size: 2.5vw !important;
+	}
+}
+@media (max-width:1260px) {
+	.nameNav{
+		font-size: 2vw !important;
+	}
+}
+@media (max-width:1210px) {
+	.nameNav{
+		font-size: 1.5vw !important;
+	}
+}
+@media (max-width:1175px) {
+	.nameNav{
+		font-size: 1vw !important;
+	}
+}
+@media (max-width:1130px) {
+	.nameNav{
+		display: none;
+	}
+}
 .nameNav {
 	color: #6C8265;;
 	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: -50px;
-	margin-top: 0px;
-
+	font-size: 3vw;
+	position: fixed;
+	z-index: 999;
 }
 
-/*.nameNavDiv{
-	z-index: 1
-}*/
+.nameNavDiv{
+	position: relative;
+}
+
 
 .itemNav{
 	color: white;
@@ -167,6 +191,31 @@
 }
 
 /* ipad Start*/
+
+
+@media (max-width: 1199px){
+	.innerIpadBezelLeft{
+		margin: 0 auto !important;
+		width: 100%
+	}
+
+	.ipadCamera{
+	margin: 0 auto !important;
+	}
+
+	.innerIpadBezelRight{
+	margin: 0 auto !important;
+	width: 100%
+	}
+
+	.ipadButton{
+		margin: 0 auto !important;
+	}
+
+	.ipadInnerButton {
+		left: 50% !important;
+	}
+}
 .innerScreen{
 	border: 2px solid #3B3C3F;
 	border-radius: 2px;
@@ -388,12 +437,11 @@ margin-left: 15px;
 .browserOuter{
 padding: 20px 0px 0px 0px;
 border-radius: 3px;
-border-bottom: 2px solid #ccc;
 display: inline-block;
 position: relative;
 line-height: 0;
 text-align: center;
-width: 1000px;
+width: 0px;
 height: 360px;
 }
 
